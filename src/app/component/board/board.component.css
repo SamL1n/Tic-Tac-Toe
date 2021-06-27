@@ -1,17 +1,16 @@
 main {
     display: grid;
-    grid-template-columns: 200px 200px 200px;
-    grid-gap: 0px;
+    grid-template-columns: 160px 160px 160px;
+    justify-content: center;
 }
 
 app-square {
-    border: 1px gray solid;
-    height: 200px;        
+    height: 160px;        
 }
 
 #main-title{
-    position: relative;
-    left: 40%;
+    margin: auto;
+    width:fit-content;
 }
 
 #restart{
@@ -20,8 +19,15 @@ app-square {
     color: #ffffff;
     font-size: medium;
     background-color: chocolate;
+
 }
 
-.main-area{
-    padding-top: 100px;
+.player-x > button{
+    background-color: hotpink;
+    
+}
+
+.player-o > button{
+    background-color: green;
+    color: green;
 }

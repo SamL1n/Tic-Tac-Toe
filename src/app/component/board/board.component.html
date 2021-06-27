@@ -4,10 +4,10 @@
 
 <h2>the current player:{{player}}</h2>
 <button id="restart" (click)="newGame()">start new game!</button>
-<h2 *ngIf="winner">winner:{{winner}}</h2>
+<h2 *ngIf="winner">winner:{{winner}}! Congratulation!</h2>
 <div>
     <main>
-        <app-square *ngFor="let square of squares; let i = index" [value]="square" (click)="makeMove(i)">
+        <app-square *ngFor="let square of squares; let i = index" [value]="square" [ngClass]="{'player-x':square == 'X','player-o':square== 'O'}" (click)="makeMove(i)">
     
         </app-square>
     </main>
