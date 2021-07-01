@@ -5,7 +5,8 @@ main {
 }
 
 app-square {
-    height: 160px;        
+    height: 160px;
+    width: 160px;        
 }
 
 #main-title{
@@ -19,15 +20,5 @@ app-square {
     color: #ffffff;
     font-size: medium;
     background-color: chocolate;
-
 }
 
-.player-x > button{
-    background-color: hotpink;
-    
-}
-
-.player-o > button{
-    background-color: green;
-    color: green;
-}

@@ -4,6 +4,11 @@ button{
     font-size: 140px;
 }
 
-#main-title{
-    color: cadetblue;
+.player-o{
+    background-color: rgb(44, 212, 120);
+}
+
+.player-x{
+    background-color: blueviolet;
+    color: white;
 }
