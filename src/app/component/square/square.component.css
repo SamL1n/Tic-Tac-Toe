@@ -12,3 +12,7 @@ button{
     background-color: blueviolet;
     color: white;
 }
+
+.player-unknown{
+    background-color: pink;
+}
